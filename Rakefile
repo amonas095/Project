@@ -1,6 +1,4 @@
-require_relative "texting.rb"
 require 'nokogiri'
-require 'mailgun'
 require './lib/joke_scraping.rb'
 require './lib/texting.rb'
 
