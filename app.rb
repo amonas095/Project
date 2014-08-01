@@ -18,5 +18,17 @@ get'/weather' do
   erb :weather
 end
 
+get'/joke' do
+  scraper = Scraper.new
+  @joke = scraper.scrape_joke
+  erb :joke
+end
+
+
+get'/word' do
+  scraper = Scraper.new
+  @word = scraper.word_of_day
+  erb :word
+end
 
 

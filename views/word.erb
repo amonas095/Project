@@ -1,1 +1,28 @@
-<li><a href="Word.erb">Help</a></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Daily Update</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1> The Daily Update</h1>
+  
+<nav>
+  <ul>
+    <li><a href="/weather">Weather</a></li>
+    <li><a href="joke">Joke</a></li>
+    <li><a href="word">Word</a></li>
+  </ul>
+</nav>
+
+
+  <h2> <%= @joke %> <h2>
+    <h2> <%= @weather %> <h2>
+      <h2> <%= @word %> <h2>
+
+
+  
+  
+</body>
+</html>
