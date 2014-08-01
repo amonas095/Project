@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
 
-gem 'sinatra', '~>1.4.4'
-gem 'thin'
+gem 'sinatra'
+gem 'shotgun'
+gem 'rake'
+gem 'nokogiri'
+gem 'twilio-ruby'
+gem 'pry'

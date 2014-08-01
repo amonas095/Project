@@ -30,6 +30,9 @@ class Scraper
   end
 end
 
+scraped_data = Scraper.new
+@joke = scraped_data.scrape_joke
+
 
 # text = Texting.new
 # text.send(weather)

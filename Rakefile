@@ -1,4 +1,9 @@
 require_relative "texting.rb"
+require 'nokogiri'
+require 'mailgun'
+require './lib/joke_scraping.rb'
+require './lib/texting.rb'
+
 
 task :joke do
   scraped_info = Scraper.new
