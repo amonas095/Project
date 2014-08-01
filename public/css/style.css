@@ -17,6 +17,15 @@ h2{
   font-family: 'Old Standard TT';
 }
 
+#title {
+  font-size: 35px;
+  text-align: left;
+}
+
+#header {
+  font-size: 35px;
+}
+
 
 
 
